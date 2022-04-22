@@ -15,24 +15,28 @@
 </head>
 <body>
     <div class="container hero">
-        <div class="row">
+        <div class="row col-reverse">
             <div class="col-md-6 image-side">
-                <img src="assets/tnq1.png" alt="">
+                <img class="img-fluid d-none d-lg-block d-md-block" src="assets/tnq1.png" alt="">
+
+                <!-- mobile -->
+                <img class="img-fluid d-lg-none d-md-none" src="assets/Group 602.png" width="100%" alt="">
             </div>
-            <div class="col-md-1">
-            </div>
+
+            <div class="col-md-1 d-none d-lg-block d-md-block"></div>
+
             <div class="col-md-5 content-side">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 mob-width">
                         <img src="assets/tnq2.png" alt="">
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mob-width0">
                         <img src="assets/tnq3.png" alt="">
                     </div>
                 </div>
-                <h1>The TNQ - Janelia <br class="hidden-xs">Climate Change Summit</h1>
-                <p>6:30 PM IST &nbsp; &nbsp; | &nbsp; &nbsp; APRIL 29, 2022</p>
-                <div class="row">
+                <h1 class="d-none d-lg-block d-md-block">The TNQ - Janelia <br class="hidden-xs">Climate Change Summit</h1>
+                <p class="d-none d-lg-block d-md-block">6:30 PM IST &nbsp; &nbsp; | &nbsp; &nbsp; APRIL 29, 2022</p>
+                <div class="row displ-none">
                     <div class="col-md-6">
                         <a href="https://www.addevent.com/event/Ot13508564+google" target="_blank"><img src="assets/tnq4.png" alt=""></a>
                     </div>
@@ -40,12 +44,19 @@
                         <a href="https://www.addevent.com/event/Ot13508564+apple" target="_blank"><img src="assets/tnq5.png" alt=""></a>
                     </div>
                 </div>
-                <button class="hero-button" onclick="window.location.href = '#speakers'">
+                <button class="hero-button d-none d-lg-block d-md-block" onclick="window.location.href = '#speakers'">
                         VIEW SPEAKERS
                 </button>
             </div>
         </div>
     </div>
+
+    <!-- mobile -->
+    <div class="d-lg-none d-md-none text-center respo-cal">
+        <a href="https://www.addevent.com/event/Ot13508564+google"><img src="assets/tnq4.png" alt=""></a>
+        <a href="https://www.addevent.com/event/Ot13508564+apple"><img src="assets/tnq5.png" alt=""></a>
+    </div>
+
     <div class="container section-2">
         <h5>ABOUT THE EVENT</h5>
         <div class="row">
@@ -68,7 +79,10 @@
             <h4 style="display: inline;">Join us on</h4>
             <img class="youtube" src="assets/tnq6.png" alt="">
         </div>
-        <div class="container">
+        <div class="container d-lg-none d-md-none p-0">
+            <iframe class="videoiframe" src="https://www.youtube.com/embed/EgGSnf7PgrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="container count-dn">
             <div id="countdown">
               <ul>
                 <li><span id="days"></span>days</li>
@@ -82,11 +96,11 @@
             <a href="https://www.addevent.com/event/Ot13508564+google" target="_blank"><img style="display: inline;" class="google" src="assets/tnq7.png" alt=""></a>
             <a href="https://www.addevent.com/event/Ot13508564+apple" target="_blank"><img style="display: inline;" class="apple" src="assets/tnq8.png" alt=""></a>
         </div>
-        <div class="">
+        <div class="container d-none d-lg-block d-md-block">
             <iframe class="videoiframe" src="https://www.youtube.com/embed/EgGSnf7PgrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
-    <div class="section-4" id="speakers">
+    <div class="section-4 d-none d-lg-block d-md-block" id="speakers">
         <h3>Our Speakers</h3>
     </div>
     <div class="section-5" style="background: #F5F5F5;">
@@ -146,7 +160,7 @@
                 <div class="col-md-3 speaker">
                     <img src="assets/tnq11.png" alt="">
                     <h3 style="margin-top: 16px;">V Ramanathan</h3>
-                    <h4>Scripps Institution of <br class="hidden-xs">Oceanography</h4>
+                    <h4>Scripps Institution of <br class="d-none d-lg-block d-md-block">Oceanography</h4>
                 </div>
                 <div class="col-md-1">
                     
@@ -169,7 +183,7 @@
                 <div class="col-md-3 speaker">
                     <img src="assets/tnq12.png" alt="">
                     <h3 style="margin-top: 16px">Fiamma Straneo</h3>
-                    <h4>Scripps Institution <br class="hidden-xs">of Oceanography</h4>
+                    <h4>Scripps Institution <br class="d-none d-lg-block d-md-block">of Oceanography</h4>
                 </div>
                 <div class="col-md-1">
                     
@@ -187,25 +201,37 @@
             </div>
         </div>
     </div>
+
+    <!-- mobile -->
+    <div class="d-lg-none d-md-none text-center respo-cal">
+        <a href="https://www.addevent.com/event/Ot13508564+google"><img src="assets/tnq4.png" alt=""></a>
+        <a href="https://www.addevent.com/event/Ot13508564+apple"><img src="assets/tnq5.png" alt=""></a>
+    </div>
     <div class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-2">
-                    <img class="img-fluid" src="assets/tnq13.png" alt="">
-                </div>
-                <div class="col-md-4" style="align-self: center;">
+                <div class="col-md-3 d-lg-none d-md-none" style="align-self: center;">
                     <h6>For more information, <br class="hidden-xs">please contact <a href="mailto:communications@tnq.co.in">communications@tnq.co.in</a></h6>
                 </div>
-                <div class="col-md-2" style="align-self: center;">
-                    <a href="https://www.addevent.com/event/Ot13508564+google" target="_blank"><img class="img-fluid" src="assets/tnq7.png" alt=""></a>
+                <div class="col-md-2 d-none d-lg-block d-md-block">
+                    <img class="img-fluid" src="assets/tnq13.png" alt="">
                 </div>
-                <div class="col-md-2" style="align-self: center;">
-                    <a href="https://www.addevent.com/event/Ot13508564+apple" target="_blank"><img class="img-fluid" src="assets/tnq8.png" alt=""></a>
+                <div class="col-md-2 d-lg-none d-md-none foot-width">
+                    <img class="img-fluid" src="assets/LOGOAsset 1 2.png" alt="">
                 </div>
-                <div class="col-md-2" style="align-self: center;">
-                    <a href="https://www.facebook.com/TNQTechnologies/" target="_blank"><img style="display: inline;" class="" src="assets/tnq14.png" alt=""></a>
-                    <a href="https://twitter.com/tnqtechnologies" target="_blank"><img style="display: inline;" class="icons" src="assets/tnq15.png" alt=""></a>
-                    <a href="https://www.instagram.com/tnqtechnologies/" target="_blank"><img style="display: inline;" class="icons" src="assets/tnq16.png" alt=""></a>
+                <div class="col-md-4 d-none d-lg-block d-md-block" style="align-self: center;">
+                    <h6>For more information, <br class="hidden-xs">please contact <a href="mailto:communications@tnq.co.in">communications@tnq.co.in</a></h6>
+                </div>
+                <div class="col-md-2 d-none d-lg-block d-md-block" style="align-self: center;">
+                    <a href="https://www.addevent.com/event/Ot13508564+google"><img class="img-fluid" src="/assets/tnq7.png" alt=""></a>
+                </div>
+                <div class="col-md-2 d-none d-lg-block d-md-block" style="align-self: center;">
+                    <a href="https://www.addevent.com/event/Ot13508564+apple"><img class="img-fluid" src="/assets/tnq8.png" alt=""></a>
+                </div>
+                <div class="col-md-2 foot-width" style="align-self: center;">
+                    <a href="https://www.facebook.com/TNQTechnologies/"><img style="display: inline;" class="" src="/assets/tnq14.png" alt=""></a>
+                    <a href="https://twitter.com/tnqtechnologies"><img style="display: inline;" class="icons" src="/assets/tnq15.png" alt=""></a>
+                    <a href="https://www.instagram.com/tnqtechnologies/"><img style="display: inline;" class="icons" src="/assets/tnq16.png" alt=""></a>
                 </div>
             </div>
         </div>
