@@ -110,6 +110,7 @@ h4{
 
 h3{
     font-style: normal;
+    line-height: 48px;
     font-weight: 600;
     font-size: 33px;
     color: #363636;
@@ -126,7 +127,6 @@ p{
 .section-3{
     text-align: center;
     padding-top: 60px;
-    margin-top: 80px;
     background: #011D2A;
     color: white;
 }
@@ -191,8 +191,8 @@ li span {
     margin: 30px 0px 70px 40px;
 }
 @media (max-width: 767px) {
-    .apple{
-        margin: 5px 0px 24px 0;
+    .apple, .google{
+        margin: 5px 0px 24px 0 !important;
     }
 }
 
@@ -231,7 +231,8 @@ li span {
 }
 
 .speaker h5{
-    margin-top: 25px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .speaker h4{
@@ -239,6 +240,11 @@ li span {
     font-size: 21.25px;
     line-height: 32px;
     color: #363636;
+}
+
+.speaker h3{
+    margin-bottom: -6px;
+
 }
 
 .speaker-content{
@@ -324,7 +330,7 @@ li span {
     color: #FFFFFF;
 }
 
-#seconds{
+#second{
     border: none !important;
 }
 
