@@ -28,7 +28,11 @@ body{
     color: #363636;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
+    
+}
+
+@media (max-width: 991px) {
     .content-side{
         margin-top: 56px;
         margin-bottom: 24px;
@@ -87,11 +91,18 @@ button{
     margin-top: 80px;
     margin-bottom: 45px;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .section-2{
         margin-top: 32px;
-        margin-bottom: 48px;
+        margin-bottom: 23px;
         padding: 0 20px !important;
+    }
+    h3{
+font-size: 27px !important; 
+line-height: 40px !important;
+    }
+    .live{
+        margin-bottom: 13px !important;
     }
 }
 
@@ -130,16 +141,20 @@ p{
     background: #011D2A;
     color: white;
 }
-@media (max-width:767px) {
+@media (max-width:991px) {
     .section-3{
         text-align: center;
         padding-top: 43px;
+        padding-bottom: 30px;
         margin-top: 30px;
         background: #011D2A;
         color: white;
     }
     .section-3 h4 {
         padding-bottom: 13px;
+    }
+    .icons{
+        margin-left: 20px !important;
     }
 }
 .youtube{
@@ -173,7 +188,7 @@ li span {
     font-size: 59px;
     line-height: 59px;
 }
-@media (max-width:767px) {
+@media (max-width:991px) {
     li span {
         margin-top: 35px !important;
         margin-bottom: 20px !important;
@@ -190,9 +205,9 @@ li span {
 .apple{
     margin: 30px 0px 70px 40px;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .apple, .google{
-        margin: 5px 0px 24px 0 !important;
+        margin: 5px 0px 10px 0 !important;
     }
 }
 
@@ -205,7 +220,16 @@ li span {
     height: 625px;
     width: 1236px;
 }
-@media (max-width: 767px) {
+
+@media (max-width: 991px) {
+    .videoiframe{
+        height: 400px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 991px) {
     .videoiframe{
         margin: 28px 0 19px 0;
         height: 264.13px;
@@ -242,6 +266,19 @@ li span {
     color: #363636;
 }
 
+@media (max-width: 991px) {
+    .speaker h4{
+        font-style: normal;
+        font-size: 16px !important;
+        line-height: 28px !important;
+    }
+    .speaker h5{
+        margin-bottom: 10px;
+    }
+}
+    
+
+
 .speaker h3{
     margin-bottom: -6px;
 
@@ -269,9 +306,9 @@ li span {
     padding-bottom: 50px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .section-5{
-        padding: 70px 8px 50px 8px;
+        padding: 55px 8px 55px 8px;
     }
     .speaker h3 {
         font-family: 'Source Sans Pro';
@@ -281,9 +318,6 @@ li span {
         line-height: 48px;
         margin-bottom: 0 !important;
         
-    }
-    .speaker h5{
-        margin-bottom: 0 !important;
     }
     .speaker h4{
         padding-bottom: 20px !important;
@@ -301,8 +335,8 @@ li span {
         font-family: 'Source Sans Pro';
         font-style: normal;
         font-weight: 400;
-        font-size: 21.25px;
-        line-height: 32px;
+        font-size: 21.25px !important;
+        line-height: 32px !important;
         padding-bottom: 20px !important;
     }
 }
@@ -336,7 +370,7 @@ li span {
 
 .section-3 .live{
     margin-bottom: 22px; }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .footer{
         padding: 35px 8px 28px 8px;
     }
