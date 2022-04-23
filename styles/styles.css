@@ -114,8 +114,8 @@ button{
         padding: 0 20px !important;
     }
     h3{
-        font-size: 27px !important; 
-        line-height: 40px !important;
+font-size: 27px !important; 
+line-height: 32px !important;
     }
     .live{
         margin-bottom: 13px !important;
@@ -237,7 +237,7 @@ li span {
 .apple{
     margin: 30px 0px 70px 40px;
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
     .apple, .google{
         margin: 5px 0px 10px 0 !important;
     }
@@ -252,7 +252,7 @@ li span {
     height: 625px;
     width: 1236px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1100px) {
     .videoiframe {
         margin-bottom: -50px;
         height: 550px;
@@ -265,12 +265,13 @@ li span {
 @media (max-width: 991px) {
     .videoiframe{
         height: 400px;
+        margin: 28px 0 19px 0;
         width: 100%;
     }
 }
 
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
     .videoiframe{
         margin: 28px 0 19px 0;
         height: 264.13px;
@@ -440,4 +441,10 @@ li span {
         line-height: 32px;
         padding-bottom: 24px;
     }
+}
+
+@media (max-width: 991px){
+.apple, .google {
+    margin: 5px 20px 10px 20px !important;
+}
 }
