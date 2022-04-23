@@ -34,8 +34,8 @@ body{
 
 @media (max-width: 991px) {
     .content-side{
-        margin-top: 56px;
-        margin-bottom: 24px;
+        margin-top: 30px;
+        margin-bottom: 25px;
     }
     .col-reverse {
         flex-direction: column-reverse;
@@ -63,9 +63,16 @@ body{
     }
     .respo-cal img {
         padding: 10px;
+        width: 40%;
     }
     .displ-none {
         display: none;
+    }
+}
+@media (max-width: 767px) {
+    .respo-cal img {
+        padding: 10px;
+        width: 72%;
     }
 }
 
@@ -326,7 +333,7 @@ li span {
         text-align: left !important;
     }
     .speaker img {
-        width: 50%;
+        width: 25%;
     }
     .speaker-content{
         padding-right: 32px !important;
@@ -338,6 +345,11 @@ li span {
         font-size: 21.25px !important;
         line-height: 32px !important;
         padding-bottom: 20px !important;
+    }
+}
+@media (max-width: 767px) {
+    .speaker img {
+        width: 40%;
     }
 }
 .footer{
