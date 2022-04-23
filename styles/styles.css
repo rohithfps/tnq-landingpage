@@ -57,11 +57,7 @@ body{
         text-align: right;
     }
     .mob-width img {
-        width: 65%;
         padding-left: 13px;
-    }
-    .mob-width0 img {
-        width: 80%;
     }
     .respo-cal {
         background-color: #f5f5f5;
@@ -76,6 +72,13 @@ body{
     }
 }
 @media (max-width: 767px) {
+    .mob-width img {
+        width: 65%;
+        padding-left: 13px;
+    }
+    .mob-width0 img {
+        width: 80%;
+    }
     .respo-cal img {
         padding: 10px;
         width: 55%;
